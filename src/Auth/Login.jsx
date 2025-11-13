@@ -65,7 +65,7 @@ const Login = () => {
               className="input input-bordered w-full"
               required
             />
-            <p className="text-xs text-right mt-1 text-gray-500">
+            <p className="text-xs font-bold text-right mt-1 text-gray-500">
               Forget Password ?
             </p>
           </div>
