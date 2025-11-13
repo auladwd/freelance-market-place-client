@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 const JobCard = ({ job }) => {
   const { _id, title, category, summary, coverImage, postedBy } = job;
+  // JobCard component JSX
   return (
     <div className="card bg-base-100 shadow-md hover:shadow-xl transition border">
       <figure className="h-48 w-full overflow-hidden">
