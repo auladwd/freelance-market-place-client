@@ -51,7 +51,7 @@ const AllJobs = () => {
     <div className="container mx-auto px-4 py-8">
       <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 mb-6">
         <h1 className="text-3xl font-bold">All Jobs</h1>
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-3">
           <label className="text-sm text-gray-600 font-bold">Sort:</label>
           <select
             value={sortOrder}
