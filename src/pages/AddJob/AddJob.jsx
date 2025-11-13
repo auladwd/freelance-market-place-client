@@ -49,7 +49,7 @@ const AddJob = () => {
       <h1 className="text-2xl font-bold mb-6 text-center">Add a New Job</h1>
       <form
         onSubmit={handleAddJob}
-        className="space-y-4 bg-base-200 p-6 rounded-xl"
+        className="space-y-3 bg-base-200 p-6 rounded-xl"
       >
         <div>
           <label className="label">
