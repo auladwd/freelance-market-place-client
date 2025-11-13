@@ -4,6 +4,8 @@ import api from '../../services/api';
 import { toast } from 'react-toastify';
 import { useNavigate } from 'react-router-dom';
 
+// AddJob component to add a new job posting
+
 const AddJob = () => {
   const { user } = useContext(AuthContext);
   const navigate = useNavigate();
