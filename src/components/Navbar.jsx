@@ -29,8 +29,10 @@ const Navbar = () => {
     </>
   );
 
+  // Navbar component JSX
+
   return (
-    <div className="bg-base-100 border-b">
+    <div className="bg-base-300 border-b">
       <div className="navbar container mx-auto">
         <div className="navbar-start">
           <div className="dropdown">
