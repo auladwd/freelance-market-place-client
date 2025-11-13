@@ -15,7 +15,7 @@ const JobCard = ({ job }) => {
       </figure>
       <div className="card-body">
         <h2 className="card-title text-lg font-bold">{title}</h2>
-        <p className="text-sm text-gray-500 mb-1">
+        <p className="text-sm text-gray-400 mb-1">
           Category: <span className="font-semibold">{category}</span>
         </p>
         <p className="text-sm text-gray-600 line-clamp-3">{summary}</p>
