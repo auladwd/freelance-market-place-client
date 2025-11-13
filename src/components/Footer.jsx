@@ -16,13 +16,13 @@ const Footer = () => {
       <div className="container mx-auto px-4 py-10 grid grid-cols-1 md:grid-cols-4 gap-8">
         {/* Brand / About Section */}
         <div>
-          <h2 className="text-xl font-bold text-primary mb-2">
+          <h2 className=" font-bold text-primary mb-2">
             Freelance<span className="text-neutral">MarketPlace</span>
           </h2>
           <p className="text-sm text-gray-600 mb-4">
             Your one-stop platform to find, post, and manage freelance jobs
             across the globe. Empowering talent and businesses to connect and
-            collaborate.
+            platform collaborate.
           </p>
 
           <div className="flex gap-3 text-xl">
