@@ -5,6 +5,7 @@ import React, {
   useMemo,
   useCallback,
 } from 'react';
+// Firebase Auth functions
 import {
   createUserWithEmailAndPassword,
   signInWithEmailAndPassword,
