@@ -67,7 +67,7 @@ const AllJobs = () => {
       {sortedJobs.length === 0 ? (
         <p className="text-center text-gray-500">No jobs available.</p>
       ) : (
-        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
           {sortedJobs.map(job => (
             <JobCard key={job._id} job={job} />
           ))}
